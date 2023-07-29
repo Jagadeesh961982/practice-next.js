@@ -1,5 +1,5 @@
 async function getdata() {
-  const endpoint = process.env.NEXT_PUBLIC_VERCEL_ENV === "production" ? process.env.NEXT_PUBLIC_VERCEL_URL : "/api/posts";
+  const endpoint = process.env.NEXT_PUBLIC_VERCEL_ENV === "production" ? "https://jagadeesh961982-improved-space-computing-764rxg7647qhx5g9-3000.preview.app.github.dev/api/posts" : "/api/posts";
   const res = await fetch(endpoint);
   console.log("resultant is", res);
   try {
