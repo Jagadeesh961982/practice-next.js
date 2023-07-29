@@ -1,5 +1,5 @@
 async function getdata() {
-  const endpoint = "http://127.0.0.1:3000/api/posts";
+  const endpoint = "/api/posts";
   const res = await fetch(endpoint);
   console.log("resultant is", res);
   try {
