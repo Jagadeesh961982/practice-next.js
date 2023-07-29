@@ -1,5 +1,5 @@
 async function getdata() {
-  const endpoint = "http://127.0.0.1:3000/api/posts";
+  const endpoint = "https://jagadeesh961982-improved-space-computing-764rxg7647qhx5g9-3000.preview.app.github.dev/api/posts";
   const res = await fetch(endpoint);
   console.log("resultant is", res);
   try {
